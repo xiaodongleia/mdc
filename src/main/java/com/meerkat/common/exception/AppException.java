@@ -10,6 +10,7 @@ import java.text.MessageFormat;
  */
 public abstract class AppException extends RuntimeException {
 
+
     private static final long serialVersionUID = 1L;
 
     private String errorCode;
