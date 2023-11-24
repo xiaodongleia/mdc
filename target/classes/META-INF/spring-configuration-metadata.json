@@ -1,0 +1,89 @@
+{
+  "groups": [
+    {
+      "name": "spring.tencent.cos",
+      "type": "com.meerkat.common.config.tencent.TencentCosConfig",
+      "sourceType": "com.meerkat.common.config.tencent.TencentCosConfig"
+    },
+    {
+      "name": "springfox.documentation.swagger-ui",
+      "type": "com.meerkat.common.config.swagger.Swagger3Config",
+      "sourceType": "com.meerkat.common.config.swagger.Swagger3Config"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.tencent.cos.base-url",
+      "type": "java.lang.String",
+      "description": "访问域名",
+      "sourceType": "com.meerkat.common.config.tencent.TencentCosConfig"
+    },
+    {
+      "name": "spring.tencent.cos.bucket-name",
+      "type": "java.lang.String",
+      "description": "bucket名称",
+      "sourceType": "com.meerkat.common.config.tencent.TencentCosConfig"
+    },
+    {
+      "name": "spring.tencent.cos.file-dir",
+      "type": "java.lang.String",
+      "description": "文件夹名称",
+      "sourceType": "com.meerkat.common.config.tencent.TencentCosConfig"
+    },
+    {
+      "name": "spring.tencent.cos.logger",
+      "type": "org.slf4j.Logger",
+      "description": "log日志",
+      "sourceType": "com.meerkat.common.config.tencent.TencentCosConfig"
+    },
+    {
+      "name": "spring.tencent.cos.region-name",
+      "type": "java.lang.String",
+      "description": "地域",
+      "sourceType": "com.meerkat.common.config.tencent.TencentCosConfig"
+    },
+    {
+      "name": "spring.tencent.cos.secret-id",
+      "type": "java.lang.String",
+      "description": "secretId",
+      "sourceType": "com.meerkat.common.config.tencent.TencentCosConfig"
+    },
+    {
+      "name": "spring.tencent.cos.secret-key",
+      "type": "java.lang.String",
+      "description": "secretKey",
+      "sourceType": "com.meerkat.common.config.tencent.TencentCosConfig"
+    },
+    {
+      "name": "springfox.documentation.swagger-ui.base-package",
+      "type": "java.lang.String",
+      "description": "扫描路径",
+      "sourceType": "com.meerkat.common.config.swagger.Swagger3Config"
+    },
+    {
+      "name": "springfox.documentation.swagger-ui.description",
+      "type": "java.lang.String",
+      "description": "说明",
+      "sourceType": "com.meerkat.common.config.swagger.Swagger3Config"
+    },
+    {
+      "name": "springfox.documentation.swagger-ui.group-name",
+      "type": "java.lang.String",
+      "description": "分组",
+      "sourceType": "com.meerkat.common.config.swagger.Swagger3Config"
+    },
+    {
+      "name": "springfox.documentation.swagger-ui.title",
+      "type": "java.lang.String",
+      "description": "名称",
+      "sourceType": "com.meerkat.common.config.swagger.Swagger3Config"
+    },
+    {
+      "name": "springfox.documentation.swagger-ui.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.meerkat.common.config.swagger.Swagger3Config"
+    }
+  ],
+  "hints": []
+}
