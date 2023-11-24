@@ -1,0 +1,77 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mdc-services-config
+  namespace: meerkat-web
+  annotations:
+    strategy.spinnaker.io/versioned: 'false'
+data:
+  agent: |-
+    collector.backend_service=pl.ap-shanghai.apm.tencentcs.com:11800
+    agent.authentication=EDvgVQUTPgrwkwrGtDKl
+    agent.service_name=mdc
+  base: |
+    server:
+      port: 8080
+      servlet:
+        context-path: /mdc
+    spring:
+      tencent:
+        cos:
+          region-name: ap-shanghai
+          bucket-name: mdc-1307863402
+          file-dir: mdc/dev
+          secret-id: AKIDe7KGvLWSBfutcDXbQzJNBiz0lFUR7WeW
+          secret-key: f6GAoKaZIm10i9JCpAG5duud5HCrFNDm
+          base-url: https://mdc-1307863402.cos.ap-shanghai.myqcloud.com/
+      datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://172.17.32.4:3306/mdc?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false&useUnicode=true
+        username: mg_mdc
+        password: 'gAFLf3PlS8qN'
+      servlet:
+        multipart:
+          max-file-size: 10485760
+          max-request-size: 104857600
+      scheduling:
+        enable:
+          baidu-order-ods-job: false
+          baidu-order-clear-job: false
+          dingxiang-order-ods-job: false
+          dingxiang-order-clear-job: false
+          appoint-remind-job: false
+        corn:
+          baidu-order-ods-job: 0 */5 * * * ?
+          baidu-order-clear-job: 0 */5 * * * ?
+          dingxiang-order-ods-job: 0 */5 * * * ?
+          dingxiang-order-clear-job: 0 */5 * * * ?
+          appoint-remind-job: 0 */5 * * * ?
+    springfox:
+      documentation:
+        swagger-ui:
+          enabled: true
+          base-package: 'com.meerkat.main.controller'
+          description: open-api
+          group-name: '疫苗订单'
+          title: '疫苗订单'
+          version: '1.0.0'
+    mybatis-plus:
+      mapper-locations: classpath:/mybatis/mapper/*Mapper.xml
+    order:
+      config:
+        robot:
+          status-url: 'https://open.feishu.cn/open-apis/bot/v2/hook/9f19bc32-bf8b-4b47-a04f-28390015f1c9'
+          appoint-url: 'https://open.feishu.cn/open-apis/bot/v2/hook/9f19bc32-bf8b-4b47-a04f-28390015f1c9'
+        dingxiang:
+          listUrl: 'https://mama.dxy.com/api/order/clinic/offline-service/order/list'
+          detailUrl: 'https://mama.dxy.com/api/order/clinic/offline-service/order'
+          clientUrl: 'https://mama.dxy.com/api/partner-gateway/clinic/reserve/detail'
+          skuUrl: 'https://mama.dxy.com/api/commodity/clinic/offline-service/list'
+        baidu:
+          app-key: '91cd990824164ced9b54924dac8653e0'
+          app-secret: '88e72363c229471ea2c24d43cf27aed5'
+          orderListUrl: 'https://jiankang.baidu.com/seller-open/order/list'
+          orderDetailUrl: 'https://jiankang.baidu.com/seller-open/order/detail'
+          orderSkuUrl: 'https://jiankang.baidu.com/seller-open/sku/detail'
+        ops:
+          url: 'XXXXXX'

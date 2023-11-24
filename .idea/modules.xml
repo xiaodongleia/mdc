@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mdc-common/mdc-common.iml" filepath="$PROJECT_DIR$/mdc-common/mdc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdc-generate-code/mdc-generate-code.iml" filepath="$PROJECT_DIR$/mdc-generate-code/mdc-generate-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdc-main/mdc-main.iml" filepath="$PROJECT_DIR$/mdc-main/mdc-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdc-mybatis/mdc-mybatis.iml" filepath="$PROJECT_DIR$/mdc-mybatis/mdc-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdc-notice/mdc-notice.iml" filepath="$PROJECT_DIR$/mdc-notice/mdc-notice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdc-vaccine-order/mdc-vaccine-order.iml" filepath="$PROJECT_DIR$/mdc-vaccine-order/mdc-vaccine-order.iml" />
+    </modules>
+  </component>
+</project>

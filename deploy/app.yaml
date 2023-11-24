@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mdc
+  namespace: meerkat-web
+  annotations:
+    reloader.stakater.com/auto: 'true'
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mdc
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: mdc
+    spec:
+      imagePullSecrets:
+        - name: coding-docker-mdc
+      containers:
+        - name: mdc
+          volumeMounts:
+            - mountPath: /app/config
+              name: config
+            - mountPath: /plugins/skywalking-agent/config
+              name: agent-config
+          image: mgjk-docker.pkg.coding.net/mdc/image/mdc
+          command:
+            - java
+            - -javaagent:/plugins/skywalking-agent/skywalking-agent.jar
+            - -Xmx400m
+            - -jar
+            - mdc.jar
+            - --spring.config.location=optional:file:./config/
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /mdc/isOK
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /mdc/isOK
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            limits:
+              cpu: 2000m
+              memory: 8192Mi
+            requests:
+              cpu: 500m
+              memory: 2048Mi
+      volumes:
+        - name: config
+          configMap:
+            name: mdc-services-config
+            items:
+              - key: base
+                path: application.yaml
+        - name: agent-config
+          configMap:
+            name: mdc-services-config
+            items:
+              - key: agent
+                path: agent.config
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mdc-common" />
+        <module name="mdc-vaccine-order" />
+        <module name="mdc-mybatis" />
+        <module name="mdc-generate-code" />
+        <module name="mdc-notice" />
+        <module name="mdc-main" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

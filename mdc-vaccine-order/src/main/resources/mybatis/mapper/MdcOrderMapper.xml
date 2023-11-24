@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.meerkat.vaccine.order.mapper.MdcOrderMapper">
+
+
+    <select id="getAllOrderBySplitId" resultType="com.meerkat.vaccine.order.model.vo.MdcOrderVO">
+        SELECT c.name,c.id_card,c.phone_no,c.sex,d.first_appoint_time,b.order_split_id
+        FROM mdc_client_order b
+        LEFT JOIN mdc_client c ON b.phone_no = c.phone_no
+        LEFT JOIN mdc_order_appoint d ON d.order_split_id = b.order_split_id
+        WHERE c.is_deleted = 0
+        <if test="orderSplitIds != null and orderSplitIds.size() > 0">
+            AND b.order_split_id in
+            <foreach collection="orderSplitIds" item="orderSplitId" open="(" separator="," close=")">
+                #{orderSplitId}
+            </foreach>
+        </if>
+    </select>
+
+
+
+    <select id="getOrderInfoBySplitId" resultType="com.meerkat.vaccine.order.model.vo.MdcOrderVO">
+        SELECT order_split_id,sku_name
+        FROM mdc_order
+        WHERE is_deleted = 0
+        <if test="orderSplitIds != null and orderSplitIds.size() > 0">
+            AND order_split_id in
+            <foreach collection="orderSplitIds" item="orderSplitId" open="(" separator="," close=")">
+                #{orderSplitId}
+            </foreach>
+        </if>
+    </select>
+
+
+    <select id="getOrderInfoList" resultType="com.meerkat.vaccine.order.model.vo.MdcOrderVO">
+        SELECT *
+        FROM mdc_order
+        WHERE is_deleted = 0
+    </select>
+
+
+
+    <select id="getAllOrderByChildOrder" resultType="com.meerkat.vaccine.order.model.vo.MdcOrderVO">
+        SELECT c.name,c.id_card,c.phone_no,c.sex,d.first_appoint_time,b.order_split_id
+        FROM mdc_client_order b
+        LEFT JOIN mdc_client c ON b.phone_no = c.phone_no
+        LEFT JOIN mdc_order_appoint d ON d.child_order = b.child_order
+        WHERE c.is_deleted = 0
+        <if test="orderSplitIds != null and orderSplitIds.size() > 0">
+            AND b.order_split_id in
+            <foreach collection="orderSplitIds" item="orderSplitId" open="(" separator="," close=")">
+                #{orderSplitId}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="listAppointRemindExcel" resultType="com.meerkat.vaccine.order.model.excel.AppointRemindExcel">
+        select a.order_split_id,
+        a.source,
+        a.goods_name,
+        c.name as clientName,
+        c.id_card,
+        ifnull(c.phone_no, a.contact_phone_no) as phone_no
+        from mdc_order a,
+        mdc_client_order b,
+        mdc_client c
+        where a.order_split_id = b.order_split_id
+        and b.phone_no = c.phone_no
+        and a.is_deleted = 0
+        and c.is_deleted = 0
+        and a.order_split_id in
+        <foreach collection="orderIds" item="orderId" open="(" separator="," close=")">
+            #{orderId}
+        </foreach>
+    </select>
+
+</mapper>

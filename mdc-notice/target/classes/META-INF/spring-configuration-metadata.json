@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "order.config.robot",
+      "type": "com.meerkat.notice.adapter.config.RobotNoticeConfig",
+      "sourceType": "com.meerkat.notice.adapter.config.RobotNoticeConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "order.config.robot.appoint-url",
+      "type": "java.lang.String",
+      "sourceType": "com.meerkat.notice.adapter.config.RobotNoticeConfig"
+    },
+    {
+      "name": "order.config.robot.status-url",
+      "type": "java.lang.String",
+      "sourceType": "com.meerkat.notice.adapter.config.RobotNoticeConfig"
+    }
+  ],
+  "hints": []
+}

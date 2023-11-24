@@ -1,0 +1,88 @@
+{
+  "groups": [
+    {
+      "name": "order.config.baidu",
+      "type": "com.meerkat.vaccine.order.config.BaiDuOrderConfig",
+      "sourceType": "com.meerkat.vaccine.order.config.BaiDuOrderConfig"
+    },
+    {
+      "name": "order.config.dingxiang",
+      "type": "com.meerkat.vaccine.order.config.DingxiangOrderConfig",
+      "sourceType": "com.meerkat.vaccine.order.config.DingxiangOrderConfig"
+    },
+    {
+      "name": "order.config.ops",
+      "type": "com.meerkat.vaccine.order.config.OrderToOpsConfig",
+      "sourceType": "com.meerkat.vaccine.order.config.OrderToOpsConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "order.config.baidu.app-key",
+      "type": "java.lang.String",
+      "description": "appKey",
+      "sourceType": "com.meerkat.vaccine.order.config.BaiDuOrderConfig"
+    },
+    {
+      "name": "order.config.baidu.app-secret",
+      "type": "java.lang.String",
+      "description": "appSecret",
+      "sourceType": "com.meerkat.vaccine.order.config.BaiDuOrderConfig"
+    },
+    {
+      "name": "order.config.baidu.d-e-f-a-u-l-t-h-e-a-d-e-r-s-t-o-s-i-g-n",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "com.meerkat.vaccine.order.config.BaiDuOrderConfig"
+    },
+    {
+      "name": "order.config.baidu.order-detail-url",
+      "type": "java.lang.String",
+      "description": "订单详情",
+      "sourceType": "com.meerkat.vaccine.order.config.BaiDuOrderConfig"
+    },
+    {
+      "name": "order.config.baidu.order-list-url",
+      "type": "java.lang.String",
+      "description": "订单列表",
+      "sourceType": "com.meerkat.vaccine.order.config.BaiDuOrderConfig"
+    },
+    {
+      "name": "order.config.baidu.order-sku-url",
+      "type": "java.lang.String",
+      "description": "SKU",
+      "sourceType": "com.meerkat.vaccine.order.config.BaiDuOrderConfig"
+    },
+    {
+      "name": "order.config.dingxiang.client-url",
+      "type": "java.lang.String",
+      "sourceType": "com.meerkat.vaccine.order.config.DingxiangOrderConfig"
+    },
+    {
+      "name": "order.config.dingxiang.detail-url",
+      "type": "java.lang.String",
+      "sourceType": "com.meerkat.vaccine.order.config.DingxiangOrderConfig"
+    },
+    {
+      "name": "order.config.dingxiang.list-url",
+      "type": "java.lang.String",
+      "sourceType": "com.meerkat.vaccine.order.config.DingxiangOrderConfig"
+    },
+    {
+      "name": "order.config.dingxiang.sku-url",
+      "type": "java.lang.String",
+      "sourceType": "com.meerkat.vaccine.order.config.DingxiangOrderConfig"
+    },
+    {
+      "name": "order.config.ops.mdc-order-service",
+      "type": "com.meerkat.vaccine.order.service.MdcOrderService",
+      "sourceType": "com.meerkat.vaccine.order.config.OrderToOpsConfig"
+    },
+    {
+      "name": "order.config.ops.url",
+      "type": "java.lang.String",
+      "description": "推送订单接口",
+      "sourceType": "com.meerkat.vaccine.order.config.OrderToOpsConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2f08f17-5bcd-4b8a-bd2a-5e3e9e810070" name="Default Changelist" comment="feat ：两小时可约打标" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/adapter/hander/BaseExcelSourceHandlerAdapter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-main/src/main/java/com/meerkat/main/controller/VaccineOrderController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/adapter/hander/BaiDuHandlerAdapter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/adapter/hander/BaseApiSourceHandlerAdapter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/adapter/SourceAdapter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/adapter/hander/BaseRetailExcelSourceHandlerAdapter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/config/BaiDuOrderConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/config/DingxiangOrderConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/adapter/hander/BaseSourceHandlerAdapter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/domain/OdsExcelOrderDO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/domain/MdcOrderDO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/vo/OrderUpdateReqParam.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/enums/OpsRefundStatusEnum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/adapter/hander/BaseRetailSourceHandlerAdapter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/enums/OrderStatusEnum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/vo/OrderExt.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/service/OdsBaiDuClientService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/enums/OrderRefundStateEnum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/vo/OpsOrderVO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/service/MdcOrderToOpsService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/service/impl/MdcOrderToOpsServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/enums/OpsChannelEnum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/enums/OpsOrderStatusEnum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/config/OrderToOpsConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-main/src/main/resources/application.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/model/vo/MdcOrderVO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-common/src/main/java/com/meerkat/common/utils/CommHttpUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-main/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-main/src/main/java/com/meerkat/main/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/service/impl/SysKvServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/resources/mybatis/mapper/MdcOrderMapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/service/SysKvService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/mapper/MdcOrderMapper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-main/src/main/java/com/meerkat/main/job/DingXiangOdsClearJob.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-main/src/main/java/com/meerkat/main/job/DingXiangDataToOdsJob.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/service/impl/MdcOrderServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/service/MdcOrderService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\mvn-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2BEMFrfXXc0JjyrhdXdbXAC9OL3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/product/mdc629/mdc/mdc-common",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.meerkat.common.model.enums" />
+      <recent name="com.meerkat.common.utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mdc-main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meerkat.main.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\86185\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2f08f17-5bcd-4b8a-bd2a-5e3e9e810070" name="Default Changelist" comment="" />
+      <created>1656466692223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656466692223</updated>
+      <workItem from="1656466694305" duration="716000" />
+      <workItem from="1656554275778" duration="13608000" />
+      <workItem from="1656640365198" duration="8574000" />
+      <workItem from="1656752953345" duration="593000" />
+      <workItem from="1656900205131" duration="18227000" />
+      <workItem from="1657251586200" duration="2770000" />
+      <workItem from="1657504426503" duration="1884000" />
+      <workItem from="1657591676686" duration="12759000" />
+      <workItem from="1658108861795" duration="1396000" />
+      <workItem from="1658146265457" duration="2240000" />
+      <workItem from="1658209457800" duration="33171000" />
+      <workItem from="1658714789285" duration="5026000" />
+      <workItem from="1658801039359" duration="33474000" />
+      <workItem from="1659319072581" duration="6913000" />
+      <workItem from="1659405204642" duration="8038000" />
+      <workItem from="1659924659777" duration="10051000" />
+      <workItem from="1660284286405" duration="2177000" />
+      <workItem from="1660300493297" duration="8382000" />
+      <workItem from="1660701658593" duration="1463000" />
+      <workItem from="1660708659676" duration="15603000" />
+      <workItem from="1661135783883" duration="3961000" />
+      <workItem from="1661219468022" duration="624000" />
+      <workItem from="1661306912782" duration="3313000" />
+      <workItem from="1661415932178" duration="4840000" />
+      <workItem from="1661738534440" duration="2836000" />
+      <workItem from="1662172812625" duration="2483000" />
+      <workItem from="1662348612052" duration="12640000" />
+      <workItem from="1662623469137" duration="7733000" />
+      <workItem from="1662950304632" duration="4476000" />
+      <workItem from="1663124388956" duration="8875000" />
+      <workItem from="1663553284654" duration="2787000" />
+      <workItem from="1663729465886" duration="4747000" />
+      <workItem from="1663756683311" duration="1782000" />
+      <workItem from="1664162096659" duration="13291000" />
+      <workItem from="1665478418066" duration="39435000" />
+      <workItem from="1666179128408" duration="39685000" />
+      <workItem from="1667183223952" duration="1237000" />
+      <workItem from="1667218507447" duration="18741000" />
+      <workItem from="1667787157774" duration="16292000" />
+      <workItem from="1668391788281" duration="12815000" />
+      <workItem from="1668931359785" duration="30507000" />
+      <workItem from="1670241416561" duration="32426000" />
+      <workItem from="1670812578621" duration="12168000" />
+      <workItem from="1671204901755" duration="2205000" />
+      <workItem from="1671593406561" duration="7943000" />
+      <workItem from="1671767214667" duration="13919000" />
+      <workItem from="1672711044922" duration="593000" />
+      <workItem from="1673230223818" duration="3116000" />
+      <workItem from="1673603730475" duration="594000" />
+      <workItem from="1673835257341" duration="926000" />
+      <workItem from="1674872049597" duration="17465000" />
+      <workItem from="1675678455364" duration="1790000" />
+      <workItem from="1675751308544" duration="663000" />
+      <workItem from="1675752312017" duration="593000" />
+      <workItem from="1675835069605" duration="13161000" />
+      <workItem from="1676008231652" duration="1188000" />
+      <workItem from="1676255892802" duration="5880000" />
+      <workItem from="1676945949801" duration="5699000" />
+      <workItem from="1677417682921" duration="621000" />
+      <workItem from="1677491675019" duration="13631000" />
+      <workItem from="1678174677615" duration="8160000" />
+      <workItem from="1679455208997" duration="616000" />
+      <workItem from="1679731214479" duration="1352000" />
+      <workItem from="1680242586083" duration="3144000" />
+      <workItem from="1680488207085" duration="2428000" />
+      <workItem from="1680509814300" duration="1467000" />
+      <workItem from="1681091734936" duration="6524000" />
+      <workItem from="1681700245922" duration="701000" />
+      <workItem from="1681701355184" duration="15137000" />
+      <workItem from="1682216512588" duration="4785000" />
+      <workItem from="1683251931565" duration="1803000" />
+      <workItem from="1683517947109" duration="2463000" />
+      <workItem from="1683599281705" duration="2846000" />
+      <workItem from="1684116202764" duration="2832000" />
+      <workItem from="1684491205228" duration="4167000" />
+      <workItem from="1684833447097" duration="1196000" />
+      <workItem from="1684921009720" duration="595000" />
+      <workItem from="1684981296520" duration="617000" />
+      <workItem from="1685169895368" duration="387000" />
+      <workItem from="1685326479374" duration="3061000" />
+      <workItem from="1685412030815" duration="607000" />
+      <workItem from="1685499770210" duration="1190000" />
+      <workItem from="1685585014985" duration="597000" />
+      <workItem from="1685608059249" duration="598000" />
+      <workItem from="1685671798976" duration="609000" />
+      <workItem from="1685769842920" duration="1267000" />
+      <workItem from="1685931530536" duration="626000" />
+      <workItem from="1686218588467" duration="96000" />
+      <workItem from="1691474327075" duration="1101000" />
+      <workItem from="1691475517735" duration="2974000" />
+      <workItem from="1691546459625" duration="597000" />
+      <workItem from="1700788884267" duration="2066000" />
+    </task>
+    <task id="LOCAL-00022" summary="feat ：疫苗优化">
+      <created>1663232863030</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232863030</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat ：疫苗优化">
+      <created>1663731913982</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663731913982</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat ：疫苗优化">
+      <created>1664247006989</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664247006989</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat ：疫苗优化">
+      <created>1664273772253</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664273772253</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat ：疫苗优化">
+      <created>1665740430663</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665740430663</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat ：疫苗优化">
+      <created>1665974623471</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665974623471</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat ：疫苗优化">
+      <created>1666145285106</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666145285106</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat ：疫苗优化">
+      <created>1666147074324</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1666147074324</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat ：疫苗优化">
+      <created>1666158631722</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1666158631722</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat ：疫苗优化">
+      <created>1666273120176</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1666273120176</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat ：疫苗优化">
+      <created>1666612211497</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666612211497</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat ：疫苗优化">
+      <created>1666613581374</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1666613581374</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat ：疫苗优化">
+      <created>1666613643181</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1666613643181</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat ：疫苗优化">
+      <created>1666619900149</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1666619900149</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat ：疫苗优化">
+      <created>1667370174787</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1667370174787</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat ：疫苗优化">
+      <created>1667381090667</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1667381090667</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat ：测试1">
+      <created>1667442439948</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1667442439948</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat ：测试2">
+      <created>1667442468323</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1667442468323</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat ：测试2">
+      <created>1667442486751</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1667442486751</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat ：优化mdc">
+      <created>1667891919599</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1667891919599</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat ：优化mdc">
+      <created>1667892968882</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1667892968882</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat ：优化mdc">
+      <created>1667894252234</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1667894252234</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat ：优化mdc">
+      <created>1669279145916</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669279145916</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat ：优化mdc,刪除直播達標">
+      <created>1669625373102</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669625373102</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat ：优化mdc,医鹿 拼多多添加订单已取消">
+      <created>1669787626240</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669787626240</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat ：优化mdc">
+      <created>1670496417228</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1670496417228</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat ：优化mdc">
+      <created>1670513183019</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1670513183019</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat ：初始化可约时间数据">
+      <created>1670568540097</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1670568540097</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat ：初始化可约时间数据">
+      <created>1670568792142</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1670568792142</updated>
+    </task>
+    <task id="LOCAL-00051" summary="feat ：初始化可约时间数据">
+      <created>1670657122232</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1670657122232</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat ：初始化可约时间数据">
+      <created>1670658829705</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1670658829706</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat ：初始化可约时间数据">
+      <created>1671608516583</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1671608516583</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat ：添加预约时间">
+      <created>1671676033998</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1671676033998</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat ：添加预约时间">
+      <created>1671697013938</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1671697013938</updated>
+    </task>
+    <task id="LOCAL-00056" summary="feat ：新增亿家渠道">
+      <created>1672283701782</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1672283701782</updated>
+    </task>
+    <task id="LOCAL-00057" summary="feat ：新增亿家渠道">
+      <created>1675221701077</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1675221701077</updated>
+    </task>
+    <task id="LOCAL-00058" summary="feat ：mdc清洗修改">
+      <created>1675406556499</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1675406556499</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat ：mdc清洗修改">
+      <created>1675842885670</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1675842885670</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat ：mdc清洗修改">
+      <created>1675852049176</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1675852049176</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat ：mdc清洗修改">
+      <created>1675852490289</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1675852490289</updated>
+    </task>
+    <task id="LOCAL-00062" summary="feat ：mdc清洗修改">
+      <created>1675933022804</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1675933022804</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat ：mdc清洗修改">
+      <created>1676534613501</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1676534613501</updated>
+    </task>
+    <task id="LOCAL-00064" summary="feat ：mdc清洗修改">
+      <created>1677745601037</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1677745601037</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat ：mdc清洗修改">
+      <created>1677747098570</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1677747098570</updated>
+    </task>
+    <task id="LOCAL-00066" summary="feat ：mdc清洗修改">
+      <created>1680242925569</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1680242925569</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat ：mdc清洗修改">
+      <created>1680255516963</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1680255516964</updated>
+    </task>
+    <task id="LOCAL-00068" summary="feat ：mdc清洗修改">
+      <created>1681786256845</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1681786256845</updated>
+    </task>
+    <task id="LOCAL-00069" summary="feat ：两小时可约打标">
+      <created>1682047304813</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1682047304813</updated>
+    </task>
+    <task id="LOCAL-00070" summary="feat ：两小时可约打标">
+      <created>1682058454028</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1682058454029</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat ：疫苗优化" />
+    <MESSAGE value="feat ：测试1" />
+    <MESSAGE value="feat ：测试2" />
+    <MESSAGE value="feat ：优化mdc,刪除直播達標" />
+    <MESSAGE value="feat ：优化mdc,医鹿 拼多多添加订单已取消" />
+    <MESSAGE value="feat ：优化mdc" />
+    <MESSAGE value="feat ：初始化可约时间数据" />
+    <MESSAGE value="feat ：添加预约时间" />
+    <MESSAGE value="feat ：新增亿家渠道" />
+    <MESSAGE value="feat ：mdc清洗修改" />
+    <MESSAGE value="feat ：两小时可约打标" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat ：两小时可约打标" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mdc-vaccine-order/src/main/java/com/meerkat/vaccine/order/adapter/hander/BaseExcelSourceHandlerAdapter.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.meerkat.vaccine.order.model.vo.OrderUpdateReqParam" memberName="orderUpdateParamList" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
