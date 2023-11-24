@@ -22,6 +22,7 @@ import lombok.Setter;
 public class MdcClientOrderDO implements Serializable {
 
 
+
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty("客户手机号")
